@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=PT+Serif:wght@400;700&family=Roboto:wght@300&family=Yeseva+One&display=swap");
 
 body {
-    overflow: hidden;
     background-color: #080404d1;
     font-family: "Merriweather", serif;
     font-family: "PT Serif", serif;
@@ -14,6 +13,8 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+/* -----------------------------HEADER--------------------------------- */
 
 header {
     display: flex;
@@ -112,7 +113,7 @@ nav ul li a {
     font-weight: 300;
     font-size: 16px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -121,5 +122,120 @@ nav ul li a:hover {
 }
 
 .go-test {
-    color: #F4CE0C;
+    color: #f4ce0c;
+}
+
+/* --------------------------MAIN--------------------------- */
+
+.background-space {
+    background: url("../images/space.png") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.basic-text {
+    font-family: "PT Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    padding-top: 27px;
+}
+
+h1 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+
+    color: #ffc700;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.iq {
+    padding-top: 0px;
+}
+
+.brain {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px 35px 0;
+}
+
+.brain img {
+    width: 50vw;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button button{
+    min-width: 189px;
+    min-height: 41px;
+    padding: 9px;
+    border-radius: 20px;
+    background-color: #FFC700;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.text-pt-serif {
+    padding: 22px 0 54px 0;
+   
+}
+
+.text-pt-serif p {
+    text-align: center;
+    font-family: "PT Serif";
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFF;
+
+}
+
+.text-pt-serif .yellow {
+    color: #FFC700;
+}
+
+.background-star {
+    background: url("../images/star.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 339px;
+    padding: 43px 0;
+}
+
+
+.text-yeseva-one {
+    font-family: 'Yeseva One', cursive;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    padding: 0 40px;
+}
+
+.quotes-left {
+    padding: 0 0 17px 24px;
+}
+
+.quotes-right {
+    display: flex;
+    justify-content: flex-end;
+    padding: 17px 24px 0 0;
 }
