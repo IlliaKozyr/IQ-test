@@ -10,7 +10,6 @@ body {
 
 .container {
     max-width: 1200px;
-    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -21,6 +20,7 @@ header {
     justify-content: flex-start;
     background-color: #181818;
     height: 48px;
+    padding: 0 15px;
 }
 
 .menu-btn {
@@ -131,7 +131,7 @@ nav ul li a:hover {
     background: url("../images/space.png") no-repeat center center fixed;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    min-height: 581px;
 }
 
 .basic-text {
@@ -180,22 +180,22 @@ h1 {
     justify-content: center;
 }
 
-.button button{
+.button button {
     min-width: 189px;
     min-height: 41px;
     padding: 9px;
     border-radius: 20px;
-    background-color: #FFC700;
-    font-family: 'Merriweather', serif;
+    background-color: #ffc700;
+    font-family: "Merriweather", serif;
     text-transform: uppercase;
     font-size: 14px;
     line-height: 18px;
     cursor: pointer;
+    color: black;
 }
 
 .text-pt-serif {
     padding: 22px 0 54px 0;
-   
 }
 
 .text-pt-serif p {
@@ -203,26 +203,57 @@ h1 {
     font-family: "PT Serif";
     font-weight: 700;
     font-size: 15px;
-    color: #FFF;
-
+    color: #fff;
 }
 
 .text-pt-serif .yellow {
-    color: #FFC700;
+    color: #ffc700;
+}
+
+.more a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 11px 0;
+    cursor: pointer;
+}
+
+.more a img {
+    width: 16px;
+    height: 16px;
+
+}
+
+.more a p {
+    font-family: "PT Serif" serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding-top: 5px;
+}
+
+.section-star {
+    display: flex;
+    align-items: center;
 }
 
 .background-star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: url("../images/star.png") no-repeat center center;
     background-size: cover;
     width: 100%;
-    height: 339px;
-    padding: 43px 0;
+    min-height: 339px;
+    /* padding: 43px 0; */
 }
 
-
 .text-yeseva-one {
-    font-family: 'Yeseva One', cursive;
-    color: #FFF;
+    font-family: "Yeseva One", cursive;
+    color: #fff;
     text-align: center;
     font-size: 18px;
     line-height: 23px;
